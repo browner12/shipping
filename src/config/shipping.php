@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Shipping Service
+    | Default Shipping Service
     |--------------------------------------------------------------------------
     |
     | Select the third party shipping service you will be using.
@@ -12,7 +12,7 @@ return [
     | Supported: 'easypost', 'postmaster', 'shippo'
     |
     */
-    'shipping_service' => env('SHIPPING_SERVICE'),
+    'default' => env('SHIPPING_SERVICE'),
 
     /*
     |--------------------------------------------------------------------------
