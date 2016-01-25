@@ -16,5 +16,4 @@ class ShippingException extends Exception
         //parent
         parent::__construct($message, $code, $previous);
     }
-
 }

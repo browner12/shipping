@@ -18,5 +18,4 @@ class ShippingServiceProvider extends ServiceProvider
             __DIR__.'/config/shipping.php' => config_path('shipping.php'),
         ]);
     }
-
 }

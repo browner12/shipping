@@ -90,5 +90,4 @@ interface ShippingInterface
      * @return mixed
      */
     public function track($trackingId);
-
 }

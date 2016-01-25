@@ -274,5 +274,4 @@ class EasyPostShipping implements ShippingInterface
             throw new ShippingException('Unable to track shipment.', 0, $e);
         }
     }
-
 }
