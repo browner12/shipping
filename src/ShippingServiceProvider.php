@@ -9,7 +9,8 @@ class ShippingServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('App\Shipping\ShippingInterface', 'App\Shipping\EasypostShipping');
+        $this->app->bind('browner12\shipping\ShippingInterface', 'browner12\shipping\EasypostShipping');
+    }
 
     public function boot()
     {
