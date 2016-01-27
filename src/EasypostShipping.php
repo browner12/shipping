@@ -20,7 +20,7 @@ class EasyPostShipping implements ShippingInterface
     public function __construct()
     {
         //set easypost api key
-        EasyPost::setApiKey(env('EASYPOST_SECRET_KEY'));
+        EasyPost::setApiKey(config('shipping.api_key'));
     }
 
     /**

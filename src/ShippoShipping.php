@@ -2,9 +2,18 @@
 
 use browner12\shipping\Contracts\Order;
 use browner12\shipping\Contracts\OrderLine;
+use Shippo;
 
 class ShippoShipping implements ShippingInterface
 {
+    /**
+     * constructor
+     */
+    public function __construct()
+    {
+        Shippo::setApiKey(config('shipping.api_key'));
+    }
+
     /**
      * create a shipment
      *
