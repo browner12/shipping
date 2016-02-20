@@ -1,22 +1,14 @@
 # Changelog
 
-All Notable changes to `shipping` will be documented in this file.
+All notable changes to `browner12\shipping` will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## NEXT - YYYY-MM-DD
+## UNRELEASED
+
+## 1.0.0 - 2016-02-20
 
 ### Added
-- Nothing
+- new shipping package
 
-### Deprecated
-- Nothing
-
-### Fixed
-- Nothing
-
-### Removed
-- Nothing
-
-### Security
-- Nothing
+[unreleased]: https://github.com/browner12/shipping/compare/v1.0.0...HEAD
