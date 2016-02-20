@@ -9,7 +9,7 @@ return [
     |
     | Select the third party shipping service you will be using.
     |
-    | Supported: 'easypost', 'postmaster', 'shippo'
+    | Supported: 'easypost', 'shippo'
     |
     */
 
