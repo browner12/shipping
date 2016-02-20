@@ -7,8 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+This is a shipping package. It provides implementations for popular providers.
 
 ## Install
 
@@ -16,6 +15,16 @@ Via Composer
 
 ``` bash
 $ composer require browner12/shipping
+```
+
+## Setup
+
+Add the service provider to the providers array in  `config/app.php`.
+
+``` php
+'providers' => [
+    browner12\shipping\ShippingServiceProvider::class,
+];
 ```
 
 ## Usage
